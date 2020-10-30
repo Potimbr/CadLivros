@@ -8,7 +8,12 @@
 
     <p>Titulo: {{ livro.titulo}}</p>
     <p>Autor do Livro: {{ livro.autor}}</p>
-    <p>Páginas do Livro {{ livro.paginas}}</p>
+    <p>Páginas do Livro {{ livro.pagina}}</p>
+
+    <mat-action-row>
+      <button mat-button color="primary">Editar</button>
+      <button mat-button color="warn">Remover</button>
+    </mat-action-row>
   </mat-expansion-panel>
 
 </mat-accordion>

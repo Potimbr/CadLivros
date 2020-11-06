@@ -2,6 +2,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { AppComponent } from './app.component';
+import { HttpClientModule} from '@angular/common/http'
 
 /** Imports do Angular Material */
 import { MatInputModule } from '@angular/material/input';
@@ -29,6 +30,7 @@ import { LivrosListaComponent } from './livros/livros-lista/livros-lista.compone
     BrowserModule,
     FormsModule,
     BrowserAnimationsModule,
+    HttpClientModule,
     MatInputModule,
     MatCardModule,
     MatButtonModule,
